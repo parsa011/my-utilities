@@ -101,3 +101,8 @@ void swap (int *a,int *b)
     *a = *b;
     *b = temp;
 }
+
+/*
+ *  Check if that key pressed with CTRL
+ */
+#define CTRL_KEY(k) ((k) & 0x1f)
